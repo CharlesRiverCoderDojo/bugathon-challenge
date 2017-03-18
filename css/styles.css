@@ -15,7 +15,12 @@ html {
 body {
   margin: 0 auto;
   padding-top: 20px;
-  width: 70%;
+  width: 60%;
+  background: #ebfafa;
+  background: -webkit-linear-gradient(left top, #ebfafa, #809fff); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, #ebfafa, #809fff); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, #ebfafa, #809fff); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, #ebfafa, #809fff); /* Standard syntax */
 }
 
 h1, h2, h3, h4 {
@@ -23,19 +28,52 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 50px;
   padding: 10px 0;
 }
 
+h3 {
+  font-size: 28px;
+}
+
 p {
+  font-size: 18px;
+  margin: 0 auto;
   text-align: justify;
-  width: 50%;
+  line-height: 1.3em;
+  width: 90%;
+}
+
+.image-wrapper {
+  text-align: center;
+}
+
+.image-wrapper .site-image {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+}
+
+.instruction-overview {
+  border: 5px solid #3366ff;
+  padding: 15px 30px;
 }
 
 li {
   list-style-type: none;
   font-size: 16px;
   line-height: 24px;
+}
+
+.bonus-section {
+  width: 100%;
+  text-align: center;
+}
+
+iframe {
+  margin-top: 30px;
+  width: 400px;
 }
 
 .bold {
