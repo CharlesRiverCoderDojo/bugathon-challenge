@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="css/font-awesome.min.css" />
     <link href="https://fonts.googleapis.com/css?family=Fira+Sans+Condensed:300,400|Gloria+Hallelujah|Indie+Flower|Montserrat|Pangolin" rel="stylesheet" />
     <meta charset="utf-8" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   </head>
 
   <body>
@@ -37,13 +38,14 @@
         <li><i class="fa fa-anchor" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp; Ensure that an HTML element is being implemented correctly (hint, hint the list item tag)</li>
         <li><i class="fa fa-hand-pointer-o" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp; With styling, make sure that an element is being selected as a class or an id</li>
         <li><i class="fa fa-check-square" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp; Check that styling of an element isn't getting overwritten by an element lower in the cascade</li>
+        <li><i class="fa fa-tachometer" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp; Open up your web inspector (option + command + i on a Mac, and control + shift + i on a PC) to directly update CSS while in the browser</li>
         <li><i class="fa fa-cogs" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp; If you're interested in learning about Font Awesome, check out this link here: <a href="http://fontawesome.io/examples/" target="_blank">Font Awesome Examples</a></li>
       </ul>
     </div>
 
     <div class="bonus-section">
       <h4>If you are looking for an extra challenge...</h4>
-      <p>Uncomment the script tags at the bottom of this file.  You will have
+      <p>Uncomment the script tags at the bottom of this file, and remove the word "hidden" from the #challenge-form div.  You will have
       a JavaScript challenge to take on. As with the content and styling, find the bugs, but this
       time in the script.js file!</p>
       <div class="gif">
@@ -51,8 +53,13 @@
       </div>
     </div>
 
+    <div id="challenge-form" hidden>
+      Please enter your name here: <input type="text" id="name-input">
+      Enter your age here: <input type="text" id="age-input">
+      <button type="submit">Submit</button>
+      <div id="message"></div>
+    </div>
 
-
-    <script src="js/script.js"></script>
+    <!-- <script src="js/script.js"></script> -->
   </body>
 </html>
