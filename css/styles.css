@@ -13,6 +13,7 @@ img:after {
 
 html {
   width: 100%;
+  cursor: default;
 }
 
 body {
@@ -40,7 +41,6 @@ h1 {
   padding: 10px 0;
   font-family: 'Pangolin', cursive;
   color: #333D44;
-
 }
 
 h3 {
@@ -59,6 +59,11 @@ p {
   width: 90%;
   font-family: 'Gloria Hallelujah', cursive;
   font-weight: light;
+}
+
+a:hover {
+  color: #1D6C9C;
+  cursor: pointer;
 }
 
 .image-wrapper {
