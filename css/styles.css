@@ -32,12 +32,16 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 48px;
   padding: 10px 0;
 }
 
 h3 {
   font-size: 28px;
+}
+
+h4 {
+  font-size: 24px;
 }
 
 p {
