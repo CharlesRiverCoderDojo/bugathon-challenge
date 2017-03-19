@@ -124,6 +124,10 @@ li {
   width: 400px;
 }
 
+.bonus-instructions {
+  padding-bottom: 50px;
+}
+
 .bonus-section {
   width: 100%;
   text-align: center;
