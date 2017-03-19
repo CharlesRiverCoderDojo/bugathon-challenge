@@ -1,6 +1,6 @@
 # bugathon-challenge
 **Ninjas need to find all of the bugs in this project.**  
-The project contains simple HTML, CSS, and JavaScript files that are designed to build ninja skills at debugging. The JavaScript file also introduces the concept of algorithms.
+The project contains simple HTML, CSS, and JavaScript files that are designed to build ninja debugging skills. The JavaScript file also introduces the concept of algorithms to ninjas that want an extra challenge.
 
 * The master branch contains the final, correct version of the site.
 * The staging branch is used for updating the correct version of the site.
