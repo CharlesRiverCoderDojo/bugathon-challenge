@@ -130,7 +130,8 @@ li {
 }
 
 .form-wrapper {
-  margin-bottom: 50px;
+  margin: 0 auto 50px;
+  width: 60%;
 }
 
 .form-input, .message-header, .message {

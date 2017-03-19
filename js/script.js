@@ -21,5 +21,5 @@ $("button").on('click', function(){
   $('.message-header').removeAttr("hidden");
   reverseName1(name);
   reverseName2(name);
-  $("#thank-you").html("<br>Thank you for stopping by, " + name + ".");
+  $("#thank-you").html("<br><h5>Thank you for stopping by, " + name + ".</h5>");
 });
