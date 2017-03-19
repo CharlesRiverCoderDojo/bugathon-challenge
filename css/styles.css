@@ -24,15 +24,18 @@ body {
   background: -webkit-linear-gradient(left top, #ebfafa, #809fff); /* For Safari 5.1 to 6.0 */
   background: -o-linear-gradient(bottom right, #ebfafa, #809fff); /* For Opera 11.1 to 12.0 */
   background: -moz-linear-gradient(bottom right, #ebfafa, #809fff); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(to bottom right, #ebfafa, #809fff); /* Standard syntax */
+  /*COMMENT OUT FIRST COLOR- need to use standard syntax for it to look right*/
+  /*background: linear-gradient(to bottom right, ***#ebfafa, #809fff); /* Standard syntax */*/
 }
 
-h1, h2, h3, h4, h5 {
+/*REMOVE H4 AND H5 AND PUT INTO SEPARATE SECTION- these should be all grouped together*/
+/*h1, h2, h3, ***h4, h5 {*/
   text-align: center;
 }
 
 h1, h2 {
-  font-family: 'Pangolin', cursive;
+  /*REMOVE QUOTES AROUND PANGOLIN- this should have quotes*/
+  /*font-family: ***'Pangolin', cursive;*/
   color: #333D44;
 }
 
@@ -78,14 +81,17 @@ p {
 }
 
 .underline {
-  text-decoration: underline;
+  /*REMOVE TEXT-DECORATION AND ONLY SAY UNDERLINE- need to use this property*/
+  /****text-decoration: underline;*/
 }
 
-.uppercase {
+/*CHANGE . to # - need to use correct selector type*/
+/****.uppercase {*/
   text-transform: uppercase;
 }
 
-a:hover {
+/*REMOVE a:, only have hover- need to add selector */
+/***a:hover {*/
   color: #1D6C9C;
   cursor: pointer;
 }
@@ -103,18 +109,21 @@ img {
   border: 2px solid white;
 }
 
-#img1 {
+/*CHANGE TO A CLASS SELECTOR- need to use correct syntax*/
+/*#img1 {*/
   margin-right: 20px;
 }
 
 .instruction-overview {
-  border: 5px solid #3366ff;
+  /*ADD BORDER-COLOR PROPERTY- should only use border property for all three attributes */
+  /*border: 5px solid ***#3366ff;*/
   padding: 15px 30px;
 }
 
 li {
   font-family: 'Indie Flower', cursive;
-  list-style-type: none;
+  /*REMOVE THIS LINE- they should remove the list type because there are already FA tags*/
+  /*list-style-type: none;*/
   font-size: 16px;
   line-height: 28px;
 }
@@ -125,7 +134,8 @@ li {
 }
 
 .bonus-instructions {
-  padding-bottom: 50px;
+  /*REMOVE 50PX- should give a value to the property*/
+  /*padding-bottom: ***50px;*/
 }
 
 .bonus-section {
