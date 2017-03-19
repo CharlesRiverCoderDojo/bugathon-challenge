@@ -99,7 +99,7 @@
        thing every time a name/string is entered into the input field. We want
        consistency when our code responds to the users' input.</p>
        <br />
-       <p> Here are some things to think about:</p>
+       <p> Here are some things to think about as you're fixing this code:</p>
      <ul>
        <li>You need to make sure the user name is saved as a variable</li>
        <li>Look into jQuery methods (a method is a built-in function) that can manipulate
@@ -107,21 +107,25 @@
        <li>Review what 'method chaining' means- putting one method after another- it's very helpful! <a href="https://www.w3schools.com/jquery/jquery_chaining.asp" target="_blank">Look here!</a></li>
        <li>You will need a method that can cut a word into individual letters <a href="https://www.w3schools.com/jsref/jsref_split.asp" target="_blank"> like here</a></li>
        <li>Another method that you may need would swap all of the letters from their original place <a href="https://www.w3schools.com/jsref/jsref_reverse.asp" target="_blank">like here</a></li>
-       <li>Another method could put those individual letters back together <a href="https://www.w3schools.com/jsref/jsref_join.asp" target="_blank">like here</a></li>
+       <li>Another method could put those individual letters back together to create another string <a href="https://www.w3schools.com/jsref/jsref_join.asp" target="_blank">like here</a></li>
        <li>There are two JavaScript functions here that you can fix. Try the first one, and then go on to the second one if you'd like.  We can chat
        about these a bit in our next meeting!</li>
      </ul>
    </div>
 
      <div class="form-wrapper">
-        Please enter your name here: <input type="text" id="name-input">
-        <button type="submit">Submit</button>
-        <div class="message-header">Here's one way to reverse your name:</div>
-        <div id="message1"></div>
+        <h4>Name Reversal Form</h4>
+        <div class="form-input">
+          Please enter your name here: <input type="text" id="name-input">
+          <button type="submit">Submit</button>
+        </div>
+        <br />
+        <div class="message-header" hidden>Here's one way to reverse your name:</div>
+        <div class="message" id="message1"></div>
         <br>
-        <div class="message-header">Here's a second way to reverse your name:</div>
-        <div id="message2"></div>
-        <div id="thank-you"></div>
+        <div class="message-header" hidden>Here's a second way to reverse your name:</div>
+        <div class="message" id="message2"></div>
+        <h4><div class="message" id="thank-you"></div></h4>
     </div>
 
     <script src="js/script.js"></script>

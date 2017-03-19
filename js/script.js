@@ -3,6 +3,7 @@ function reverseName1(name) {
   // let nameForward = name;
   let name1 = name.split("").reverse().join("");
   $("#message1").html("Your name reversed is " + name1 + ".");
+
 }
 
 // second function that reverses name that user puts into form
@@ -17,6 +18,7 @@ function reverseName2(name) {
 // display reversed names
 $("button").on('click', function(){
   let name = document.getElementById('name-input').value;
+  $('.message-header').removeAttr("hidden");
   reverseName1(name);
   reverseName2(name);
   $("#thank-you").html("<br>Thank you for stopping by, " + name + ".");

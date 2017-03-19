@@ -70,6 +70,18 @@ p {
   font-weight: light;
 }
 
+.bold {
+  font-weight: bold;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
 a:hover {
   color: #1D6C9C;
   cursor: pointer;
@@ -113,14 +125,16 @@ li {
   text-align: center;
 }
 
-.bold {
-  font-weight: bold;
+.form-wrapper {
+  margin-bottom: 50px;
 }
 
-.underline {
-  text-decoration: underline; 
+.form-input, .message-header, .message {
+  text-align: left;
+  font-family: 'Montserrat', Arial, sans-serif;
+  color: black;
 }
 
-.uppercase {
-  text-transform: uppercase;
+#thank-you {
+  text-align: center;
 }
