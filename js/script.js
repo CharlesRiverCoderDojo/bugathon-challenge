@@ -1,6 +1,5 @@
 // first function that reverses name that user puts into form
 function reverseName1(name) {
-  // let nameForward = name;
   let name1 = name.split("").reverse().join("");
   $("#message1").html("Your name reversed is " + name1 + ".");
 
@@ -8,8 +7,8 @@ function reverseName1(name) {
 
 // second function that reverses name that user puts into form
 function reverseName2(name) {
-    var name2 = "";
-    for (var i = name.length - 1; i >= 0; i--) {
+    let name2 = "";
+    for (let i = name.length - 1; i >= 0; i--) {
         name2 += name[i];
     }
     $("#message2").html("Your name backwards is still " + name2);
