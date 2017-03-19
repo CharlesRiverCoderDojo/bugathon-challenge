@@ -9,9 +9,9 @@ function reverseName1(name) {
 
 // second function that reverses name that user puts into form
 function reverseName2(name) {
-    var name2 = "";
-    // REMOVE ONE - FROM i--  - they need to have two -- to decrement value
-    // for (var i = name.length - 1; i >= 0; ***i--) {
+    let name2 = "";
+    // REMOVE ONE - FROM i-- AND REMOVE LENGTH - they need to have two -- to decrement value
+    // for (let i = name.***length - 1; i >= 0; ***i--) {
         name2 += name[i];
     }
     // CHANGE .html to .append- incorrect method to use
