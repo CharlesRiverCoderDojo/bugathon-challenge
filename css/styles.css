@@ -1,0 +1,149 @@
+.image-wrapper:before,
+.image-wrapper:after,
+img:before,
+img:after {
+  content: "";
+  display: table;
+}
+
+.image-wrapper:after,
+img:after {
+  clear: both;
+}
+
+html {
+  width: 100%;
+  cursor: default;
+}
+
+body {
+  margin: 0 auto;
+  padding-top: 40px;
+  width: 60%;
+  background: #ebfafa;
+  background: -webkit-linear-gradient(left top, #ebfafa, #809fff); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, #ebfafa, #809fff); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, #ebfafa, #809fff); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, #ebfafa, #809fff); /* Standard syntax */
+}
+
+h1, h2, h3, h4, h5 {
+  text-align: center;
+}
+
+h1, h2 {
+  font-family: 'Pangolin', cursive;
+  color: #333D44;
+}
+
+h1 {
+  font-size: 55px;
+  line-height: 30px;
+}
+
+h2 {
+  font-size: 50px;
+  line-height: 30px;
+}
+
+h3, h4 {
+  font-family: 'Montserrat', Arial, sans-serif;
+  color: black;
+}
+
+h3 {
+  font-size: 28px;
+}
+
+h4 {
+  font-size: 22px;
+}
+
+h5 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 18px;
+  margin: 0 auto;
+  text-align: justify;
+  line-height: 1.5em;
+  width: 90%;
+  font-family: 'Gloria Hallelujah', cursive;
+  font-weight: light;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+a:hover {
+  color: #1D6C9C;
+  cursor: pointer;
+}
+
+.image-wrapper {
+  text-align: center;
+  margin: 0 auto;
+}
+
+img {
+  display: inline-block;
+  width: 320px;
+  margin: 40px auto 20px;
+  overflow: hidden;
+  border: 2px solid white;
+}
+
+#img1 {
+  margin-right: 20px;
+}
+
+.instruction-overview {
+  border: 5px solid #3366ff;
+  padding: 15px 30px;
+}
+
+li {
+  font-family: 'Indie Flower', cursive;
+  list-style-type: none;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.gif {
+  margin: 30px auto;
+  width: 400px;
+}
+
+.bonus-instructions {
+  padding-bottom: 50px;
+}
+
+.bonus-section {
+  width: 100%;
+  text-align: center;
+}
+
+.form-wrapper {
+  margin: 0 auto 50px;
+  width: 60%;
+}
+
+.form-input, .message-header, .message {
+  text-align: left;
+  font-family: 'Montserrat', Arial, sans-serif;
+  color: black;
+}
+
+#thank-you {
+  text-align: center;
+}
