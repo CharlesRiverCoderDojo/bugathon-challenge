@@ -24,18 +24,19 @@ body {
   background: -webkit-linear-gradient(left top, #ebfafa, #809fff); /* For Safari 5.1 to 6.0 */
   background: -o-linear-gradient(bottom right, #ebfafa, #809fff); /* For Opera 11.1 to 12.0 */
   background: -moz-linear-gradient(bottom right, #ebfafa, #809fff); /* For Firefox 3.6 to 15 */
-  /*COMMENT OUT FIRST COLOR- need to use standard syntax for it to look right*/
-  /*background: linear-gradient(to bottom right, ***#ebfafa, #809fff); /* Standard syntax */*/
+  background: linear-gradient(to bottom right, #809fff); /* Standard syntax */
 }
 
-/*REMOVE H4 AND H5 AND PUT INTO SEPARATE SECTION- these should be all grouped together*/
-/*h1, h2, h3, ***h4, h5 {*/
+h1, h2, h3 {
+  text-align: center;
+}
+
+h4, h5 {
   text-align: center;
 }
 
 h1, h2 {
-  /*REMOVE QUOTES AROUND PANGOLIN- this should have quotes*/
-  /*font-family: ***'Pangolin', cursive;*/
+  font-family: Pangolin, cursive;
   color: #333D44;
 }
 
@@ -81,17 +82,14 @@ p {
 }
 
 .underline {
-  /*REMOVE TEXT-DECORATION AND ONLY SAY UNDERLINE- need to use this property*/
-  /****text-decoration: underline;*/
+  underline;
 }
 
-/*CHANGE . to # - need to use correct selector type*/
-/****.uppercase {*/
+#uppercase {
   text-transform: uppercase;
 }
 
-/*REMOVE a:, only have hover- need to add selector */
-/***a:hover {*/
+:hover {
   color: #1D6C9C;
   cursor: pointer;
 }
@@ -109,21 +107,18 @@ img {
   border: 2px solid white;
 }
 
-/*CHANGE TO A CLASS SELECTOR- need to use correct syntax*/
-/*#img1 {*/
+.img1 {
   margin-right: 20px;
 }
 
 .instruction-overview {
-  /*ADD BORDER-COLOR PROPERTY- should only use border property for all three attributes */
-  /*border: 5px solid ***#3366ff;*/
+  border: 5px solid;
+  border-color: #3366ff;
   padding: 15px 30px;
 }
 
 li {
   font-family: 'Indie Flower', cursive;
-  /*REMOVE THIS LINE- they should remove the list type because there are already FA tags*/
-  /*list-style-type: none;*/
   font-size: 16px;
   line-height: 28px;
 }
@@ -134,8 +129,7 @@ li {
 }
 
 .bonus-instructions {
-  /*REMOVE 50PX- should give a value to the property*/
-  /*padding-bottom: ***50px;*/
+  padding-bottom;
 }
 
 .bonus-section {
