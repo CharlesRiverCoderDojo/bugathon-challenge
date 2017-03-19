@@ -51,7 +51,6 @@ h3, h4 {
   color: black;
 }
 
-
 h3 {
   font-size: 28px;
 }
@@ -98,13 +97,14 @@ a:hover {
 
 img {
   display: inline-block;
-  width: 300px;
+  width: 320px;
   margin: 40px auto 20px;
   overflow: hidden;
+  border: 2px solid white;
 }
 
 #img1 {
-  margin-right: 40px;
+  margin-right: 20px;
 }
 
 .instruction-overview {
