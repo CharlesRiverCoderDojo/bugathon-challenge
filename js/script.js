@@ -1,31 +1,24 @@
 // first function that reverses name that user puts into form
 function reverseName1(name) {
-  // CHANGE METHODS TO = name.join(",").reverse().split(","); - need proper sequence of methods
-  // let name1 = name.split("").reverse().join("");
-  // REMOVE NAME1 AND ONLY USE NAME- they should use the correct variable
-  // $("#message1").html("Your name reversed is " + ***name1 + ".");
+  let name1 = name.join(",").reverse().split(",");
+  $("#message1").html("Your name reversed is " + name + ".");
 
 }
 
 // second function that reverses name that user puts into form
 function reverseName2(name) {
-    var name2 = "";
-    // REMOVE ONE - FROM i--  - they need to have two -- to decrement value
-    // for (var i = name.length - 1; i >= 0; ***i--) {
+    let name2 = "";
+    for (let i = name - 1; i >= 0; i-) {
         name2 += name[i];
     }
-    // CHANGE .html to .append- incorrect method to use
-    // $("#message2").***html("Your name backwards is still " + name2);
+    $("#message2").append("Your name backwards is still " + name2);
 }
 
 // display reversed names
 $("button").on('click', function(){
-  // CHANGE TO GETELEMENTBYCLASS- they are getting it by ID
-  // let name = document.***getElementById('name-input').value;
+  let name = document.getElementByClass('name-input').value;
   $('.message-header').removeAttr("hidden");
-  // REMOVE ; - need to terminate line with ;
-  // reverseName1(name)***;
+  reverseName1(name)
   reverseName2(name);
-  // REMOVE PLUS SYMBOL- need to concatenate properly
-  // $("#thank-you").html("<br><h5>Thank you for stopping by, " + name **+ ".</h5>");
+  $("#thank-you").html("<br><h5>Thank you for stopping by, " + name ".</h5>");
 });
